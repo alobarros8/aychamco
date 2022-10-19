@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/cork-board.png);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+}
+.img {
+  width: 250px;
+  height: 250px;
+}
+.elementos {
+  text-align: center;
+  margin: 10px;
+}
+.header {
+  padding-left: 25%;
+  position: sticky;
+  background-color: black;
+
+  display: flex;
+}
+.img__header {
+  width: 300px;
+  height: 300px;
+}
+.hijo {
+  border: solid red;
+  margin: 10px;
+  border-radius: 47px;
+  box-shadow: 8px 7px 14px 0px rgba(0, 0, 0, 0.3);
+  background-color: rgba(109, 124, 24, 0.514);
+  transition: transform 300ms ease-out;
+}
+.hijo:hover {
+  transform: translate(0px, 0px) scale(1.1, 1.1);
+}
